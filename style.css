@@ -1,20 +1,37 @@
 .header {
     margin-bottom: 2em;
-}
-
-body{
-    width: 100%;
-    padding: 0;
-    overflow-x: hidden;
-}
-
-h1, h2{
     text-align: center;
 }
 
-.header, section {
+body{
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: var(--CorDoFundo);
+}
+
+.corpo h1, h2{
+    text-align: center;
+}
+
+.corpo article {
     display: flex;
     justify-content: center;
     justify-self: center;
     flex-direction: column;
+}
+
+:root {
+    --CorDoFundo: #393c3d;
+}
+
+.corpo {
+    width: 100%;
+    margin: 0px 50px;
+    text-align: center;
+}
+
+.corpo .video {
+    border-radius: 500px;
 }
