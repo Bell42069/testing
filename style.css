@@ -3,12 +3,19 @@
     text-align: center;
 }
 
+:root {
+    --fundo: #0e0e0e;
+}
+
 body{
+    font-family: "roboto";
     text-align: center;
     width: 100%;
     padding: 0;
     overflow-x: hidden;
-    background-color: var(--CorDoFundo);
+    background-color: var(--fundo);
+    color: #ffff;
+
 }
 
 .corpo h1, h2{
